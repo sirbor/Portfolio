@@ -1,13 +1,16 @@
 ---
 date: '2018-12-18'
-title: 'Spotify Profile'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Pac Man Js'
+github: 'https://github.com/sirbor/Pac-Man-Js'
+external: 'https://pac-man-js.vercel.app/'
 tech:
-  - React
-  - Express
-  - Styled Components
-showInProjects: false
+  - HTML
+  - CSS
+  - Javascript
+  - Git
+  - Github
+  - Vs Code
+showInProjects: true
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Pac-Man Recreation in HTML5 / Javascript.
