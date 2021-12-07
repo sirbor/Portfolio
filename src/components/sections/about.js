@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)','MongoDB','Express js', 'React', 'Node.js', 'Java', 'C++','WordPress',];
+  const skills = ['JavaScript (ES6+)','MongoDB','Express js', 'React', 'Node.js', 'Java', 'Python','Kotlin', 'HTML/CSS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -138,7 +138,7 @@ const About = () => {
             <p>Hi, I’m Dominic Bor </p>
             <p>👨‍💻 MERN Stack Developer- Mongo DB, Expressjs , ReactJs, Nodejs </p>
             <p>👀 I’m interested in Software development,Web & Graphic Design, Mobile Application Development and System design. </p>
-            <p>🌱 I’m currently learning Java, Javascript and C++. </p>
+            <p>🌱 I’m currently learning Java, Javascript and Python. </p>
             <p>💞️ I’m looking to collaborate on projects that would enhance my knowledge and experience in the field.</p>
             <p>📫 Reach me @dominicbor44@gmail.com</p>
 
