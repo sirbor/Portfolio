@@ -1,14 +1,19 @@
 ---
 date: '2020-03-27'
-title: 'Integrating Algolia Search with WordPress Multisite'
-github: ''
-external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
+title: 'My Blog'
+github: 'https://github.com/sirbor/my-blog/tree/main/my-blog'
+external: ''
 tech:
-  - Algolia
-  - WordPress
-  - PHP
-company: 'Upstatement'
-showInProjects: false
+  - HTML
+  - CSS
+  - Javascript
+  - Vs Code
+  - Mongo DB
+  - AWS
+  - Terminal
+company: 'freeLance'
+showInProjects: true
 ---
+Following a Linked In Learning Course, learning how to create a blog with react and mongodb.
 
-Building a custom multisite compatible WordPress plugin to build global search with Algolia
+
