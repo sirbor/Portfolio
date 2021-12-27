@@ -61,11 +61,12 @@ const Contact = () => {
 
       <p>
         I’m currently looking for any new opportunities, my inbox is always open.
+        Consulting at 50 $ per hour.
         
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        Contact Sirbor
       </a>
     </StyledContactSection>
   );
