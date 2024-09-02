@@ -10,28 +10,16 @@ const experience: {
   logo: string;
 }[] = [
   {
-    company: 'MoonPay',
-    role: 'Senior Front-End Engineer',
-    date: 'April 2022 → July 2024',
-    logo: '/moonpay-logo.jpg',
+    company: 'Rapid Research',
+    role: 'Senior Engineer',
+    date: 'Nov 2022 → Date',
+    logo: '/Rapid.png',
   },
   {
-    company: 'Monzo',
-    role: 'Web Engineer / Product Designer',
-    date: 'May 2019 → November 2021',
-    logo: '/monzo-logo.png',
-  },
-  {
-    company: 'Kalo',
-    role: 'UI Engineer',
-    date: 'February 2017 → May 2019',
-    logo: '/kalo-logo.jpg',
-  },
-  {
-    company: 'Pusher',
-    role: 'Front-end Developer',
-    date: 'September 2015 → January 2017',
-    logo: '/pusher-logo.jpg',
+    company: 'Labs Afrika',
+    role: 'Software Engineer',
+    date: 'Aug 2021 → Oct 2022',
+    logo: '/Labs.png',
   },
 ];
 
@@ -45,25 +33,26 @@ export default async function InfoPage() {
           with some amazing companies to help them build theirs.
         </p>
         <p>
-          Most recently, I was working with MoonPay to help build the future of
-          payments. Before that, I was working with Monzo - the fastest growing
-          bank in the UK. Originally joining as a product designer, I
-          transitioned into a web engineer role where I worked with a variety of
-          teams to help rethink modern day banking for their millions of
-          customers.
+          Hi, I'm Dominic Bor, a software engineer dedicated to building innovative products that users love.
+          I currently work with Rapid Research, developing AI-driven content systems that have significantly boosted user engagement.
+          Previously, at Labs Afrika, I honed my full-stack skills, improving application performance and expanding our global user base
         </p>
 
         <p>
-          I also worked with Kalo (which eventually became Polywork) where I was
-          the first UI Engineering hire. My responsibilities included building
-          out the design system as well as ensuring a high bar of design quality
-          across the product.
+          With a BSc in Information Technology from KCA University and training from the ALX Software Engineering program,
+          I've developed a diverse set of technical skills:
         </p>
+              <ul>
+          <li><strong>Programming Languages:</strong> C/C++, Python, Javascript, Typescript, Go</li>
+          <li><strong>Frontend:</strong> HTML, CSS, Tailwind, React, Next.js, GraphQL, Vite, Vitest, npm</li>
+          <li><strong>Backend:</strong> Postgres, Redis, Rest Api, Nginx, Django, Firebase, MongoDB, AWS, AWS Lambda</li>
+          <li><strong>DevOps:</strong> Vim, Bash, Git, Docker, Terraform, Ansible, Github Actions, Prometheus, Elastic Stack</li>
+        </ul>
 
         <p>
-          I&apos;ve always bounced somewhere between design and engineering,
-          however the common thread has always been my love for building things
-          that people love to use.
+          As a Github Campus Expert, I organize tech events and foster coding collaborations. 
+          I thrive on challenges that push the boundaries of what's possible in software engineering, 
+          consistently delivering robust and secure codebases while bridging communication gaps between technical and business teams.
         </p>
 
         <p>

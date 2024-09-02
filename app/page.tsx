@@ -50,16 +50,15 @@ export default async function Home() {
     <main className="px-4 md:px-0">
       <section className="pb-14 border-b border-slate-300 mb-14">
         <h1 className="font-semibold text-4xl mb-4 text-slate-950">
-          Hi, I’m Dominic.
+          Hi, I’m Dominic Bor.
           <span className="block text-slate-500 font-normal text-2xl">
-            A Software engineer from the remote based in NY.
+            A Software engineer remote based from New York.
           </span>
         </h1>
         <p className="text-slate-700 text-lg md:text-xl leading-normal">
-          I work with leading-edge companies to create exceptional products. I
-          most recently worked with MoonPay to help make web3 accessible. Before
-          that, I built personal and business banking products for millions of
-          customers at Monzo.
+        I currently work with Rapid Research, developing AI-driven content systems that have significantly boosted user engagement.
+        Previously, at Labs Afrika, I honed my full-stack skills, improving application performance and expanding our global user base.
+
         </p>
         <Link
           href="/info"
