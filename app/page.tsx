@@ -14,30 +14,30 @@ const projects: {
   image: string;
 }[] = [
   {
-    title: 'Hystruct',
-    href: 'https://www.hystruct.com',
-    description: 'Scrape structured data from the web with AI',
-    image: '/hystruct.png',
+    title: 'KadiPay',
+    href: 'https://github.com/sirbor/KadiPay',
+    description: 'KadiPay is your gateway to effortless cryptocurrency-to-fiat conversions, with a primary focus on USD and Kes.',
+    image: '/KadiPay.png',
   },
   {
-    title: 'Glow',
-    href: 'https://glow.as',
+    title: 'OkoaLoan',
+    href: '',
     description:
-      'A super simple way to create beautiful personal landing pages.',
-    image: '/glow.png',
+      'A simple mobile loan app to demonstrate my skills',
+    image: '/Okoaloan.png',
   },
   {
-    title: 'FlagDB',
-    href: 'https://flagdb.com',
+    title: 'Node js Daraja Api',
+    href: '',
     description:
-      'A personal project to build a database of flags from around the world',
-    image: '/flagdb.png',
+      'A repository demonstrating how to consume the Safaricom Daraja API',
+    image: '/Mpesa - Api.png',
   },
   {
-    href: 'https://github.com/alexpate/awesome-design-systems',
-    title: 'Awesome Design Systems',
-    description: 'A curated list of design systems',
-    image: '/awesome-design-systems.png',
+    href: 'ra-qt.vercel.app',
+    title: 'RAQT',
+    description: 'A fintech solutions and research organization within Africa.',
+    image: '/RAQT.png',
   },
 ];
 

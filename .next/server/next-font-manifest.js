@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/sirbor/Projects/Portfolio/app/layout\":[\"static/media/86fdec36ddd9097e-s.p.woff2\",\"static/media/6277f1a7f42c1288-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
