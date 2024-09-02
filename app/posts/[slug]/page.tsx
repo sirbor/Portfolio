@@ -33,13 +33,13 @@ export async function generateMetadata(
   return {
     title: post?.meta.title,
     description: post?.meta.summary,
-    publisher: 'Alex Pate',
-    creator: 'Alex Pate',
+    publisher: 'Dominic Bor',
+    creator: 'Dominic Bor',
     twitter: {
       ...parentMeta?.twitter,
       siteId: undefined,
       site: undefined,
-      creator: '@alexjpate',
+      creator: '@sirbor_',
       creatorId: '243263662',
       description:
         post?.meta?.summary || parentMeta?.twitter?.description || undefined,
@@ -49,7 +49,7 @@ export async function generateMetadata(
       ...parentMeta?.openGraph,
       title: post?.meta?.title || parentMeta?.openGraph?.title,
       description: post?.meta?.summary || parentMeta?.openGraph?.description,
-      url: `https://alexjpate.com/posts/${params.slug}`,
+      url: `https://dominicbor.me.com/posts/${params.slug}`,
     },
   };
 }
