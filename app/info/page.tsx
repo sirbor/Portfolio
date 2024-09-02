@@ -33,7 +33,7 @@ export default async function InfoPage() {
           with some amazing companies to help them build theirs.
         </p>
         <p>
-          Hi, I'm Dominic Bor, a software engineer dedicated to building innovative products that users love.
+          A software engineer dedicated to building innovative products that users love.
           I currently work with Rapid Research, developing AI-driven content systems that have significantly boosted user engagement.
           Previously, at Labs Afrika, I honed my full-stack skills, improving application performance and expanding our global user base
         </p>
