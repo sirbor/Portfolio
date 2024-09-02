@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'Dominic Bor is a software engineer based Remote, working somewhere on the boundary between design and code.',
   twitter: {
     card: 'summary_large_image',
-    creator: '@sirbor',
+    creator: '@sirbor_',
     images: ['/og.png'],
     title: 'Dominic Bor - Software Engineer',
   },
@@ -52,7 +52,7 @@ const jsonLd = {
   url: 'https://dominicbor.me',
   jobTitle: 'Software Engineer',
   sameAs: [
-    'https://twitter.com/sirbor',
+    'https://twitter.com/sirbor_',
     'https://www.github.com/sirbor',
     'https://www.linkedin.com/in/sirbor/',
   ],
