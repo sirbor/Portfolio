@@ -21,21 +21,21 @@ const projects: {
   },
   {
     title: 'OkoaLoan',
-    href: '',
+    href: 'https://github.com/sirbor/OkoaLoan',
     description:
       'A simple mobile loan app to demonstrate my skills',
     image: '/Okoaloan.png',
   },
   {
     title: 'Node js Daraja Api',
-    href: '',
+    href: 'https://github.com/sirbor/Nodedaraja',
     description:
       'A repository demonstrating how to consume the Safaricom Daraja API',
     image: '/Mpesa - Api.png',
   },
   {
-    href: 'ra-qt.vercel.app',
     title: 'RAQT',
+    href: 'https://ra-qt.vercel.app',
     description: 'A fintech solutions and research organization within Africa.',
     image: '/RAQT.png',
   },
