@@ -11,7 +11,7 @@ const experience: {
 }[] = [
   {
     company: 'Rapid Research',
-    role: 'Senior Engineer',
+    role: 'Software Engineer',
     date: 'Nov 2022 → Date',
     logo: '/Rapid.png',
   },
