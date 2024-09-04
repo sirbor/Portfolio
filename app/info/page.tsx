@@ -33,14 +33,14 @@ export default async function InfoPage() {
           with some amazing companies to help them build theirs.
         </p>
         <p>
-          A software engineer dedicated to building innovative products that users love.
-          I currently work with Rapid Research, developing AI-driven content systems that have significantly boosted user engagement.
-          Previously, at Labs Afrika, I honed my full-stack skills, improving application performance and expanding our global user base
+        A software engineer dedicated to building innovative products that users love. Currently, I work at
+        Rapid Research, developing AI-driven content systems that have significantly boosted user engagement.
+        Previously, I honed my full-stack skills at Labs Afrika, improving application performance and expanding our global user base.
         </p>
 
         <p>
-          With a BSc in Information Technology from KCA University and training from the ALX Software Engineering program,
-          I've developed a diverse set of technical skills:
+        With a BSc in Information Technology from KCA University and training from the ALX Software Engineering program,
+        I've developed a diverse set of technical skills:
         </p>
               <ul>
           <li><strong>Programming Languages:</strong> C/C++, Python, Javascript, Typescript, Go</li>
