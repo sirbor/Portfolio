@@ -8,8 +8,8 @@ const contact: {
   label: string;
 }[] = [
   {
-    method: 'Email',
-    link: 'mailto:dominicbor44@proton.me',
+    method: 'Mail',
+    link: 'mailto:mail@dominicbor.me',
     label: 'Send an email',
   },
   {
