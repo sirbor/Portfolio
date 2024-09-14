@@ -27,11 +27,11 @@ const projects: {
     image: '/Okoaloan.png',
   },
   {
-    title: 'Node js Daraja Api',
-    href: 'https://github.com/sirbor/Nodedaraja',
+    title: 'Luku Extreemz',
+    href: 'https://github.com/sirbor/LukuExtreemz',
     description:
-      'A repository demonstrating how to consume the Safaricom Daraja API',
-    image: '/Mpesa - Api.png',
+      'An ecommerce website for a local business selling fashions show casing payments using stripe, mpesa and paystack',
+    image: '/Luku.png',
   },
   {
     title: 'RAQT',
