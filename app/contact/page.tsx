@@ -15,7 +15,7 @@ const contact: {
   {
     method: 'Resume',
     link: '/Dominic_Bor_Resume.pdf',
-    label: 'Resume',
+    label: 'Check out my Resume',
   },
   {
     method: 'GitHub',
