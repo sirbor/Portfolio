@@ -43,10 +43,9 @@ export default async function InfoPage() {
         I've developed a diverse set of technical skills:
         </p>
               <ul>
-          <li><strong>Programming Languages:</strong> C/C++, Python, Javascript, Typescript, Go</li>
-          <li><strong>Frontend:</strong> HTML, CSS, Tailwind, React, Next.js, GraphQL, Vite, Vitest, npm</li>
-          <li><strong>Backend:</strong> Postgres, Redis, Rest Api, Nginx, Django, Firebase, MongoDB, AWS, AWS Lambda</li>
-          <li><strong>DevOps:</strong> Vim, Bash, Git, Docker, Terraform, Ansible, Github Actions, Prometheus, Elastic Stack</li>
+          <li><strong>Programming Languages:</strong> Java, Kotlin , Javascript, Typescript, Go</li>
+          <li><strong>Frameworks:</strong> Springboot, Spring MVC, Jetpack Compose, Android UI, Retrofit, Redis, Rest Api</li>
+          <li><strong>Tools and Technologies:</strong> Maven , Gradle, Docker , Postgres , Firebase, Prometheus,Jest,AWS</li>
         </ul>
 
         <p>
