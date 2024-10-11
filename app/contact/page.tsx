@@ -13,9 +13,9 @@ const contact: {
     label: 'Send an email',
   },
   {
-    method: 'Twitter',
-    link: 'https://twitter.com/sirbor_',
-    label: '@Dominic Bor',
+    method: 'Resume',
+    link: '/Dominic_Bor_Resume.pdf',
+    label: 'Resume',
   },
   {
     method: 'GitHub',
