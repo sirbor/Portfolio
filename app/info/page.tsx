@@ -44,8 +44,8 @@ export default async function InfoPage() {
         </p>
               <ul>
           <li><strong>Programming Languages:</strong> Java, Kotlin , Javascript, Typescript, Go</li>
-          <li><strong>Frameworks:</strong> Springboot, Spring MVC, Jetpack Compose, Android UI, Retrofit, Redis, Rest Api</li>
-          <li><strong>Tools and Technologies:</strong> Maven , Gradle, Docker , Postgres , Firebase, Prometheus,Jest,AWS</li>
+          <li><strong>Frameworks:</strong> Springboot, Spring MVC, Jetpack Compose, Angular Android UI, Retrofit, Redis, Rest Api</li>
+          <li><strong>Tools and Technologies:</strong> Maven , Gradle, Docker , Postgres, Firebase, Prometheus, Jest, AWS</li>
         </ul>
 
         <p>
