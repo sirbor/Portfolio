@@ -33,9 +33,11 @@ export default async function InfoPage() {
           with some amazing companies to help them build theirs.
         </p>
         <p>
-        A software engineer dedicated to building innovative products that users love. Currently, I work at
-        Rapid Research, developing AI-driven content systems that have significantly boosted user engagement.
-        Previously, I honed my full-stack skills at Labs Afrika, improving application performance and expanding our global user base.
+        I have a solid foundation in Java and the Spring ecosystem, which has empowered me to develop and manage robust microservices that drive real business value.
+        One of my proudest achievements was leveraging Spring Boot, JPA, and Hibernate to create a highly efficient RESTful web service that streamlined operations for
+        a major client, significantly improving their transaction management processes. My experience with DevOps tools like Docker and AWS has allowed me to 
+        implement cloud deployments that enhance application performance and scalability. Additionally, I’ve successfully integrated messaging systems like RabbitMQ and
+        utilized data processing frameworks such as Hadoop and Spark to tackle complex data challenges, ensuring that my solutions not only meet technical specifications but also deliver impactful results for users.
         </p>
 
         <p>
