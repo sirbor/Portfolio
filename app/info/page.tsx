@@ -33,28 +33,30 @@ export default async function InfoPage() {
           with some amazing companies to help them build theirs.
         </p>
         <p>
-        I have a solid foundation in Java and the Spring ecosystem, which has empowered me to develop and manage robust microservices that drive real business value.
-        One of my proudest achievements was leveraging Spring Boot, JPA, and Hibernate to create a highly efficient RESTful web service that streamlined operations for
-        a major client, significantly improving their transaction management processes. My experience with DevOps tools like Docker and AWS has allowed me to 
-        implement cloud deployments that enhance application performance and scalability. Additionally, I’ve successfully integrated messaging systems like RabbitMQ and
-        utilized data processing frameworks such as Hadoop and Spark to tackle complex data challenges, ensuring that my solutions not only meet technical specifications but also deliver impactful results for users.
+        I am a dedicated software engineer with a solid foundation in Java and the Spring ecosystem, empowering me to develop and manage robust microservices
+        that drive real business value. Proficient in both Java and Kotlin, I have successfully leveraged Spring Boot, JPA, and Hibernate to create highly
+        efficient RESTful web services, significantly improving transaction management processes for major clients. My expertise extends to front-end development
+        with JavaScript, Dart, and Angular, as well as mobile application development using Jetpack Compose.
+
         </p>
 
         <p>
-        With a BSc in Information Technology from KCA University and training from the ALX Software Engineering program,
-        I've developed a diverse set of technical skills:
+        I have a strong focus on cloud technologies and DevOps practices, utilizing Docker and AWS to implement cloud deployments
+        that enhance application performance and scalability. My experience with PostgreSQL and Firebase allows me to efficiently manage data,
+        while tools like Mockito and JUnit ensure robust testing and high-quality deliverables.
         </p>
               <ul>
           <li><strong>Tools and Technologies:</strong> Java, Kotlin , Javascript , Dart , Springboot , Spring MVC , Angular, Jetpack Compose ,
-Retrofit , Redis , Restful Services , Maven , Gradle , Docker , Postgres , Firebase , Mockito, JDBC , Microservices ,
-Openshift , Apache Camel , Jest , RxJava , AWS , JUnit</li>
+                      Retrofit , Redis , Restful Services , Maven , Gradle , Docker , Postgres , Firebase , Mockito, JDBC , Microservices ,
+                      Openshift , Apache Camel , Jest , RxJava , AWS , JUnit</li>
         </ul>
 
         <p>
-          As a Github Campus Expert, I organize tech events and foster coding collaborations. 
-          I thrive on challenges that push the boundaries of what's possible in software engineering, 
-          consistently delivering robust and secure codebases while bridging communication gaps between technical and business teams.
-        </p>
+        Additionally, I’ve integrated messaging systems like RabbitMQ and utilized data processing frameworks such as Hadoop and Spark 
+        to tackle complex data challenges. My commitment to continuous learning and collaboration enables me to deliver impactful results for users,
+        ensuring that my solutions not only meet technical specifications but also drive innovation and efficiency in dynamic environments.
+
+      </p>
 
         <p>
           If you&apos;re interested in working together, feel free to reach out
