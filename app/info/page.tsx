@@ -45,8 +45,9 @@ export default async function InfoPage() {
         I've developed a diverse set of technical skills:
         </p>
               <ul>
-          <li><strong>Tools and Technologies:</strong> Java, Kotlin , Javascript , Go , Springboot , Spring MVC , Angular, Jetpack Compose,
-          Android UI , Retrofit , Redis , Rest Api , Maven , Gradle , Docker , Postgres , Firebase , Prometheus , Jest , AWS</li>
+          <li><strong>Tools and Technologies:</strong> Java, Kotlin , Javascript , Dart , Springboot , Spring MVC , Angular, Jetpack Compose ,
+Retrofit , Redis , Restful Services , Maven , Gradle , Docker , Postgres , Firebase , Mockito, JDBC , Microservices ,
+Openshift , Apache Camel , Jest , RxJava , AWS , JUnit</li>
         </ul>
 
         <p>

@@ -27,6 +27,11 @@ const contact: {
     link: 'https://www.linkedin.com/in/sirbor/',
     label: 'in/Dominic Bor',
   },
+  {
+    method: 'Read my Books',
+    link: 'https://www.readthistwice.com/kdominicbor/my-reads',
+    label: 'Links to my current reads',
+  },
 ];
 export default async function InfoPage() {
   return (

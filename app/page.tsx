@@ -56,9 +56,15 @@ export default async function Home() {
           </span>
         </h1>
         <p className="text-slate-700 text-lg md:text-xl leading-normal">
-        I currently work with Rapid Research, developing AI-driven content systems that have significantly boosted user engagement.
-        Previously, at Labs Afrika, I honed my full-stack skills, improving application performance and expanding our global user base.
-
+          I have a solid foundation in Java and the Spring ecosystem, empowering
+          me to develop robust microservices that drive real business value. My
+          achievements include leveraging Spring Boot, JPA, and Hibernate to create
+          efficient RESTful web services, streamlining operations for major clients.
+          With experience in DevOps tools like Docker and AWS, I implement scalable
+          cloud deployments. I've also integrated messaging systems like RabbitMQ
+          and utilized data processing frameworks such as Hadoop and Spark to tackle
+          complex challenges, delivering impactful results that meet both technical
+          specifications and user needs.
         </p>
         <Link
           href="/info"
