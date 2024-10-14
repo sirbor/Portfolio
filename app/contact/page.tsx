@@ -20,17 +20,32 @@ const contact: {
   {
     method: 'GitHub',
     link: 'https://github.com/sirbor',
-    label: 'git/Dominic Bor',
+    label: 'Git - Dominic Bor',
   },
   {
     method: 'LinkedIn',
     link: 'https://www.linkedin.com/in/sirbor/',
-    label: 'in/Dominic Bor',
+    label: 'Linkedin - Dominic Bor',
   },
   {
     method: 'Read my Books',
     link: 'https://www.readthistwice.com/kdominicbor/my-reads',
     label: 'Links to my current reads',
+  },
+  {
+    method: 'Calendy',
+    link: 'https://calendly.com/kdominicbor/30min',
+    label: 'Calendy - Dominic Bor',
+  },
+  {
+    method: 'Mobile',
+    link: '+254 738 292 843',
+    label: '+254 738 292 843',
+  },
+  {
+    method: 'Buy me a Coffee',
+    link: 'https://www.buymeacoffee.com/sirbor',
+    label: 'Coffee  - Dominic Bor',
   },
 ];
 export default async function InfoPage() {
