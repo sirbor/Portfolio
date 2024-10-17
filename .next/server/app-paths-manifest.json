@@ -1,8 +1,5 @@
 {
   "/posts/page": "app/posts/page.js",
-  "/posts/[slug]/page": "app/posts/[slug]/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/info/page": "app/info/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/posts/[slug]/page": "app/posts/[slug]/page.js"
 }
