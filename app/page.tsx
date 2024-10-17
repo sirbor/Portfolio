@@ -14,30 +14,30 @@ const projects: {
   image: string;
 }[] = [
   {
-    title: 'KadiPay',
-    href: 'https://github.com/sirbor/KadiPay',
-    description: 'KadiPay is your gateway to effortless cryptocurrency-to-fiat conversions, with a primary focus on USD and Kes.',
-    image: '/KadiPay.png',
+    title: 'Kiondoo',
+    href: '',
+    description: 'A thrift online store for a local business.',
+    image: '/Kiondoo.png',
   },
   {
-    title: 'OkoaLoan',
-    href: 'https://github.com/sirbor/OkoaLoan',
+    title: 'Makeja',
+    href: '',
     description:
-      'A simple mobile loan app to demonstrate my skills',
-    image: '/Okoaloan.png',
+      'A real estate mobile app showcasing properties for sale and rent.',
+    image: '/Keja.png',
   },
   {
-    title: 'Luku Extreemz',
-    href: 'https://github.com/sirbor/LukuExtreemz',
+    title: 'Finje',
+    href: '',
     description:
-      'An ecommerce website for a local business selling fashions show casing payments using stripe, mpesa and paystack',
-    image: '/Luku.png',
+      'A mobile app that helps users track their expenses and manage their finances.',
+    image: '/Finje.png',
   },
   {
-    title: 'RAQT',
-    href: 'https://ra-qt.vercel.app',
-    description: 'A fintech solutions and research organization within Africa.',
-    image: '/RAQT.png',
+    title: 'Jikoni',
+    href: '',
+    description: 'A food delivery application to serve traditional cuisines within the city.',
+    image: '/Jikoni.png',
   },
 ];
 

@@ -1,0 +1,84 @@
+---
+title:  "Java Collections Framework: A Deep Dive"
+summary: "The Java Collections Framework provides a set of interfaces and classes to store and manipulate groups of objects."
+---
+Let's look at three fundamental collection types:
+
+## List
+
+List is an ordered collection that allows duplicate elements. It's like a todo list where you can have multiple identical tasks.
+
+```
+import java.util.*;
+
+public class ListExample {
+    public static void main(String[] args) {
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Cherry");
+        fruits.add("Banana");  // Duplicate allowed
+
+        System.out.println("Fruits: " + fruits);
+        System.out.println("Second fruit: " + fruits.get(1));
+        
+        fruits.remove("Banana");  // Removes the first occurrence
+        System.out.println("After removing Banana: " + fruits);
+    }
+}
+
+```
+
+## Set
+
+Set is a collection that does not allow duplicate elements. It's like a basket of unique marbles.
+
+```
+import java.util.*;
+
+public class SetExample {
+    public static void main(String[] args) {
+        Set<Integer> numbers = new HashSet<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(2);  // This won't be added as it's a duplicate
+
+        System.out.println("Numbers: " + numbers);
+        System.out.println("Contains 2? " + numbers.contains(2));
+        
+        numbers.remove(3);
+        System.out.println("After removing 3: " + numbers);
+    }
+}
+
+```
+
+## Map 
+
+Map is a collection of key-value pairs. It's like a dictionary where each word (key) has a definition (value).
+
+```
+import java.util.*;
+
+public class MapExample {
+    public static void main(String[] args) {
+        Map<String, Integer> ages = new HashMap<>();
+        ages.put("Alice", 25);
+        ages.put("Bob", 30);
+        ages.put("Charlie", 35);
+
+        System.out.println("Ages: " + ages);
+        System.out.println("Bob's age: " + ages.get("Bob"));
+        
+        ages.remove("Alice");
+        System.out.println("After removing Alice: " + ages);
+        
+        for (Map.Entry<String, Integer> entry : ages.entrySet()) {
+            System.out.println(entry.getKey() + " is " + entry.getValue() + " years old");
+        }
+    }
+}  
+
+```
+
