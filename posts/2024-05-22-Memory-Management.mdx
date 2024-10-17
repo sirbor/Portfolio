@@ -1,0 +1,48 @@
+---
+title: 'Java Memory Management and Garbage Collection'
+summary: Understanding Java's memory management and garbage collection is crucial for writing efficient applications.
+---
+
+## Memory Allocation
+
+```
+public class MemoryAllocationExample {
+    public static void main(String[] args) {
+        // Allocating memory on the stack
+        int x = 5;
+        
+        // Allocating memory on the heap
+        Integer y = new Integer(10);
+        
+        // String literals are stored in the String pool
+        String str1 = "Hello";
+        
+        // Creating a new String object on the heap
+        String str2 = new String("Hello");
+        
+        System.out.println("x: " + x);
+        System.out.println("y: " + y);
+        System.out.println("str1 == str2: " + (str1 == str2));
+        System.out.println("str1.equals(str2): " + str1.equals(str2));
+    }
+}
+
+```
+
+## Garbage Collection
+
+```
+
+public class GarbageCollectionExample {
+    public static void main(String[] args) {
+        for (int i = 0; i < 1000000; i++) {
+            new Object();
+        }
+        
+        System.out.println("Before GC: " + Runtime.getRuntime().freeMemory());
+        System.gc();
+        System.out.println("After GC: " + Runtime.getRuntime().freeMemory());
+    }
+}
+
+```

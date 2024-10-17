@@ -1,0 +1,32 @@
+---
+title: 'JDBC: Connecting Java Applications to Databases'
+summary: JDBC (Java Database Connectivity) provides a standard way to interact with databases.
+---
+
+```
+
+import java.sql.*;
+
+public class JDBCExample {
+    public static void main(String[] args) {
+        String url = "jdbc:mysql://localhost:3306/mydatabase";
+        String user = "username";
+        String password = "password";
+        
+        try (Connection conn = DriverManager.getConnection(url, user, password);
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery("SELECT * FROM users")) {
+            
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                String email = rs.getString("email");
+                System.out.println(id + "\t" + name + "\t" + email);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```

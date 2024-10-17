@@ -1,0 +1,51 @@
+---
+title: "Java Generics"
+summary: 'Generics enable you to write code that can work with different types while providing compile-time type safety.'
+---
+
+## Generic Class
+
+```
+public class Box<T> {
+    private T content;
+
+    public void set(T content) {
+        this.content = content;
+    }
+
+    public T get() {
+        return content;
+    }
+}
+
+public class GenericExample {
+    public static void main(String[] args) {
+        Box<Integer> integerBox = new Box<>();
+        integerBox.set(10);
+        System.out.println("Integer Value: " + integerBox.get());
+
+        Box<String> stringBox = new Box<>();
+        stringBox.set("Hello Generics");
+        System.out.println("String Value: " + stringBox.get());
+    }
+}
+
+```
+
+## Generic Method
+
+```
+public class Utilities {
+    public static <T extends Comparable<T>> T findMax(T a, T b) {
+        return a.compareTo(b) > 0 ? a : b;
+    }
+}
+
+public class GenericMethodExample {
+    public static void main(String[] args) {
+        System.out.println("Max of 3 and 7: " + Utilities.findMax(3, 7));
+        System.out.println("Max of 'apple' and 'orange': " + Utilities.findMax("apple", "orange"));
+    }
+}
+
+```

@@ -1,0 +1,84 @@
+---
+title: 'Design Patterns in Java'
+summary: Design patterns are reusable solutions to common problems in software design.
+draft: true
+---
+
+## Singleton Pattern
+
+```
+public class Singleton {
+    private static Singleton instance;
+    
+    private Singleton() {}
+    
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+    
+    public void showMessage() {
+        System.out.println("Hello from Singleton!");
+    }
+}
+
+public class SingletonExample {
+    public static void main(String[] args) {
+        Singleton singleton = Singleton.getInstance();
+        singleton.showMessage();
+    }
+}
+
+
+```
+
+## Factory Pattern
+
+```
+interface Animal {
+    void speak();
+}
+
+class Dog implements Animal {
+    @Override
+    public void speak() {
+        System.out.println("Woof!");
+    }
+}
+
+class Cat implements Animal {
+    @Override
+    public void speak() {
+        System.out.println("Meow!");
+    }
+}
+
+class AnimalFactory {
+    public Animal getAnimal(String animalType) {
+        if (animalType == null) {
+            return null;
+        }
+        if (animalType.equalsIgnoreCase("DOG")) {
+            return new Dog();
+        } else if (animalType.equalsIgnoreCase("CAT")) {
+            return new Cat();
+        }
+        return null;
+    }
+}
+
+public class FactoryPatternExample {
+    public static void main(String[] args) {
+        AnimalFactory factory = new AnimalFactory();
+        
+        Animal dog = factory.getAnimal("DOG");
+        dog.speak();  // Output: Woof!
+        
+        Animal cat = factory.getAnimal("CAT");
+        cat.speak();  // Output: Meow!
+    }
+}
+
+```
